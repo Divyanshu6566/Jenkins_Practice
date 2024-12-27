@@ -4,5 +4,8 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello");
         System.out.println(new Date());
+
+        Student student = new Student();
+        student.sayHello();
     }
 }
